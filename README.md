@@ -1,2 +1,2 @@
-# Practice_IRNTU
-Practice_IRNTU
+Прохождение практики в ИрНИТУ.
+
