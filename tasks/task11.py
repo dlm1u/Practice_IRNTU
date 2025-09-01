@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Загружаем изображение
-image = cv2.imread("C:/Users/vikusik/Desktop/proga/praktika.cpp/test_2.jpg")
+image = cv2.imread("test_2.jpg")
 
 # Размытие для снижения шумов
 blurred = cv2.GaussianBlur(image, (11, 11), 0)
@@ -51,3 +51,4 @@ for i, contour in enumerate(yellow_contours):
 cv2.imshow("result", image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
