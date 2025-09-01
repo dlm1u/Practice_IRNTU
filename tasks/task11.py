@@ -51,4 +51,3 @@ for i, contour in enumerate(yellow_contours):
 cv2.imshow("result", image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
